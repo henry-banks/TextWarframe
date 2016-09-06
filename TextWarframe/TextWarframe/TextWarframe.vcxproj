@@ -110,14 +110,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Faction.cpp" />
+    <ClCompile Include="Ability.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MeleeWeapon.cpp" />
+    <ClCompile Include="RangedWeapon.cpp" />
     <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="Warframe.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Faction.h" />
+    <ClInclude Include="Ability.h" />
+    <ClInclude Include="CombatEnums.h" />
+    <ClInclude Include="Factions.h" />
+    <ClInclude Include="MeleeWeapon.h" />
+    <ClInclude Include="RangedWeapon.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Unit.h" />
+    <ClInclude Include="Warframe.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

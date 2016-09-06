@@ -1,4 +1,4 @@
-///Base class for all units
+///Base class for all units.  Pure Virtual.
 
 #pragma once
 #include "stdafx.h"
@@ -13,14 +13,17 @@ public:
 	
 	unsigned int health;
 	unsigned int shields;
+	unsigned int level;
 
-	Faction faction;
+	EFaction faction;
+	EUnitStates state;
+
+	//List of all status effects
+	std::vector<EDamageEffects> statusEffects;
+	std::vector<Weapon> weapons;
+	std::vector<Ability> abilities;
 
 	/*TO ADD:
-	Weapons
-	Skills/Powers
-	Location(?)
-	Dead/Alive/Bleeding out
-	Status Effects*/
+	Location(?)*/
 };
 

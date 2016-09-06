@@ -6,4 +6,8 @@
 #include <vector>
 
 #include "Unit.h"
-#include "Faction.h"
+#include "Weapon.h"
+#include "Ability.h"
+
+#include "CombatEnums.h"
+#include "Factions.h"
