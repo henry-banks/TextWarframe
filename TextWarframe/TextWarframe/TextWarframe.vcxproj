@@ -114,6 +114,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MeleeWeapon.cpp" />
     <ClCompile Include="Mod.cpp" />
+    <ClCompile Include="PlayerData.cpp" />
     <ClCompile Include="RangedWeapon.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="Warframe.cpp" />
@@ -126,6 +127,7 @@
     <ClInclude Include="MeleeWeapon.h" />
     <ClInclude Include="Mod.h" />
     <ClInclude Include="ModEnums.h" />
+    <ClInclude Include="PlayerData.h" />
     <ClInclude Include="RangedWeapon.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Unit.h" />
