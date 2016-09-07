@@ -17,7 +17,7 @@ public:
 	std::vector<Warframe*> frameList;
 
 	Weapon* primaryWeapon, secondaryWeapon, meleeWeapon;
-	std::vector<Weapon*> weaponList
+	std::vector<Weapon*> weaponList;
 
 };
 
