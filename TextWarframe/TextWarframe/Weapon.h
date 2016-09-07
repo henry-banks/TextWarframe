@@ -23,5 +23,6 @@ protected:
 	float totalDamage;
 
 	unsigned int level;
+	unsigned int modCapacity;
 };
 

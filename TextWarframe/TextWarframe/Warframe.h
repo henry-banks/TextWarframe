@@ -12,5 +12,6 @@ public:
 
 	//Four abilities maximum
 	std::vector<Ability> abilities;
+	unsigned int modCapacity;
 };
 

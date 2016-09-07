@@ -12,6 +12,7 @@ Weapon::Weapon()
 	baseDamage = 0;
 	totalDamage = 0;
 	level = 0;
+	modCapacity = 0;
 }
 
 

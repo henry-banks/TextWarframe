@@ -45,6 +45,9 @@
     <ClCompile Include="MeleeWeapon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -73,6 +76,12 @@
     </ClInclude>
     <ClInclude Include="MeleeWeapon.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEnums.h">
+      <Filter>Header Files\Data</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
