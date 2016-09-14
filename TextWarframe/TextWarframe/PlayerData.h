@@ -16,7 +16,9 @@ public:
 	//All warframes in inventory
 	std::vector<Warframe*> frameList;
 
-	Weapon* primaryWeapon, secondaryWeapon, meleeWeapon;
+	Weapon* primaryWeapon;
+	Weapon* secondaryWeapon;
+	Weapon* meleeWeapon;
 	std::vector<Weapon*> weaponList;
 
 };

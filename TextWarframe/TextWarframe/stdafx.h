@@ -13,6 +13,7 @@
 #include "Weapon.h"
 #include "Ability.h"
 #include "Warframe.h"
+#include "GameState.h"
 
 //Enums and other data
 #include "CombatEnums.h"

@@ -19,3 +19,13 @@ Weapon::Weapon()
 Weapon::~Weapon()
 {
 }
+
+std::string Weapon::getName()
+{
+	return name;
+}
+
+void Weapon::setName(std::string inName)
+{
+	name = inName;
+}

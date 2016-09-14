@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ability.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MeleeWeapon.cpp" />
     <ClCompile Include="Mod.cpp" />
@@ -124,6 +125,7 @@
     <ClInclude Include="Ability.h" />
     <ClInclude Include="CombatEnums.h" />
     <ClInclude Include="Factions.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="MeleeWeapon.h" />
     <ClInclude Include="Mod.h" />
     <ClInclude Include="ModEnums.h" />

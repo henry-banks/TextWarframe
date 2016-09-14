@@ -9,6 +9,9 @@ public:
 	Weapon();
 	~Weapon();
 
+	std::string getName();
+	void setName(std::string inName);
+
 protected:
 	std::string name;
 
